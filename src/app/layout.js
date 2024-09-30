@@ -13,7 +13,7 @@ import getPlaylistById from "../../actions/getPlaylistById";
 const font = Figtree({ subsets: ["latin"] });
 
 export const metadata = {
-    title: "Spotify Clone",
+    title: "Tidal Clone",
     description: "Listen to some nice music",
 };
 
