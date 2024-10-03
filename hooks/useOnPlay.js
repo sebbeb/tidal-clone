@@ -8,9 +8,9 @@ export default function useOnPlay(songs) {
     const { user } = useUser();
 
     function onPlay(id) {
-        if (!user) {
-            return authModal.onOpen();
-        }
+        // if (!user) {
+        //     return authModal.onOpen();
+        // }
 
         player.setId(id);
         player.setIds(songs.map((song) => song.id));
