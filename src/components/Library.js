@@ -51,7 +51,11 @@ export default function Library({ songs, playlists }) {
             </div>
             <div className={styles["library-song-list"]}>
                 {playlists.map((playlist) => (
-                    <Link key={playlist.id} href={`/playlist/${playlist.id}`}>
+                    <Link
+                        className={styles["library-song-list-link"]}
+                        key={playlist.id}
+                        href={`/playlist/${playlist.id}`}
+                    >
                         <MediaItem data={playlist} />
                     </Link>
                 ))}

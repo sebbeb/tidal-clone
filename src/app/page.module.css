@@ -769,6 +769,15 @@
     margin-bottom: 2rem;
 }
 
+.library-song-list-link {
+    height: 4rem;
+    margin: 0;
+}
+
+.library-song-list-link:last-child {
+    margin-bottom: 2rem;
+}
+
 .no-songs {
     margin-top: 1rem; /* 16px */
     color: rgb(163 163 163);
